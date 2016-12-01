@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Baccus</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="wine_image_description">Imagen que representa a un vino</string>
+    <string name="reload">Recargar</string>
+    <string name="choose_option">Elige una opción</string>
+    <string name="fit">Ajustada</string>
+    <string name="centered">Centrada</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="title_activity_winery">Baccus</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="next">Siguiente</string>
+    <string name="downloading">Descargando</string>
+    <string name="previous">Anterior</string>
+    <string name="save">Guardar</string>
+    <string name="loading">Cargando...</string>
+    <string name="red">Tinto</string>
+    <string name="white">Blanco</string>
+    <string name="rose">Rosado</string>
+    <string name="other">Otro</string>
+    <string name="go_to_web">Ir a la web</string>
+
+    <string name="wine_company_subtitle"><u>BODEGA DEL VINO</u></string>
+    <string name="wine_origin_subtitle"><u>DENOMINACIÓN DE ORIGEN</u></string>
+    <string name="wine_type_subtitle"><u>TIPO DEL VINO</u></string>
+    <string name="wine_grape_subtitle"><u>UVA</u></string>
+
+</resources>

@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="biz.agbo.baccus.controller.activity.WineryActivity">
+
+      <item android:id="@+id/menu_prev" android:title="@string/previous" app:showAsAction="always"/>
+      <item android:id="@+id/menu_next" android:title="@string/next" app:showAsAction="always" />
+</menu>

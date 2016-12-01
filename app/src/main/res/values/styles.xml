@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="BaccusTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/BaccusActionBar</item>
+    </style>
+
+    <style name="WineRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/copa_rating</item>
+        <item name="android:minHeight">32dip</item>
+        <item name="android:maxHeight">32dip</item>
+        <item name="android:paddingTop">10dip</item>
+    </style>
+
+    <style name="WineTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:height">45dip</item>
+    </style>
+
+    <style name="WineSubtitle">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#9F4545</item>
+        <item name="android:paddingTop">5dip</item>
+    </style>
+
+    <style name="WineText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingBottom">5dip</item>
+    </style>
+
+    <style name="WineNotes" parent="WineText">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="BaccusActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/baccus</item>
+        <item name="background">@color/baccus</item>
+    </style>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_bg" >
+
+
+    <ImageView
+        android:id="@+id/wine_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/wine_image_description"
+        android:src="@drawable/bembibre" />
+
+    <TextView
+        android:id="@+id/wine_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/wine_image"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:text="@+id/wine_name" />
+
+    <TextView
+        android:id="@+id/wine_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/wine_name"
+        android:layout_toRightOf="@+id/wine_image"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:text="@+id/wine_company" />
+
+</RelativeLayout>
